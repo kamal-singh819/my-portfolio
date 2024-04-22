@@ -34,19 +34,48 @@ export const projects = [
 ];
 
 export const skills = [
-    { name: "C", level: "Intermediate" },
-    { name: "C++", level: "Intermediate" },
-    { name: "Java", level: "Intermediate" },
-    { name: "Python", level: "Intermediate" },
-    { name: "HTML", level: "Expert" },
-    { name: "CSS", level: "Expert" },
     { name: "JavaScript", level: "Expert" },
-    { name: "Tailwind css", level: "Expert" },
     { name: "ReactJS", level: "Intermediate" },
+    { name: "Tailwind css", level: "Expert" },
     { name: "NodeJS", level: "Intermediate" },
     { name: "ExpressJS", level: "Intermediate" },
     { name: "MongoDB", level: "Intermediate" },
+    { name: "OOPs", level: "Expert" },
+    { name: "Java", level: "Intermediate" },
+    { name: "C", level: "Intermediate" },
+    { name: "C++", level: "Intermediate" },
+    { name: "Python", level: "Intermediate" },
+    { name: "HTML", level: "Expert" },
+    { name: "CSS", level: "Expert" },
     { name: "Git & Github", level: "Intermediate" },
     { name: "SQL", level: "Intermediate" },
-    { name: "Object Oriented Programming", level: "Expert" },
 ];
+
+export const experience = [
+    {
+        companyName: "Itobuz Technologies Pvt. Ltd. Kolkata",
+        role: "Software Development Engineer Intern",
+        type: "on-site",
+        duration: "Jan 2024 - Present",
+        content: ["Engaging in full-stack web development with a focus on HTML, CSS, JavaScript, ReactJS, NodeJS, and MongoDB.",
+            "Actively contributing to project on Github, demonstrating proficiency in version control and collaborative software development."],
+        links: {
+            Github: "https://github.com/kamal-singh-itobuz"
+        }
+    },
+    {
+        companyName: "Prime Vogue",
+        role: "Machine Learning",
+        type: "remote",
+        duration: "June 2022 - July 2022",
+        content: ["Learnt about Machine Learning and explored algorithms used in it.", "Developed a content-based recommendation system utilizing machine learning libraries such as Pandas, Numpy, and Scikit-Learn."],
+        links: {
+            Certificate: "https://drive.google.com/file/d/1esAZ7aDSiEVUrNbxmrKJpT2thZ0_cvgc/view"
+        }
+    }
+];
+
+export const githubURL = "https://github.com/kamal-singh819";
+export const linkedInURL = "https://www.linkedin.com/in/kamalsinghofficial/";
+export const leetcodeURL = "https://leetcode.com/TheKing45/";
+export const resumeURL = "https://drive.google.com/file/d/1Q1RX1I-UVKDJx9bMGgW1TYpggyiXDwNe/view?usp=drivesdk";

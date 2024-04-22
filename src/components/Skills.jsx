@@ -13,9 +13,9 @@ export default function Skills() {
             I have aquired these skills through Internship and projects throughout my B.E journey.
           </p>
         </div>
-        <div className="flex flex-wrap gap-3 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-6">
           {skills.map((skill) => (
-              <div key={skill.name} className="bg-gray-800 rounded flex p-4 px-10 items-center">
+              <div key={skill.name} className="bg-gray-800 col-span-1 rounded flex p-4 px-10 items-center" data-aos="zoom-in-right">
                 <LuBadgeCheck className={`${skill.level=== "Expert" ? "text-green-500" : "text-green-200"} w-6 h-6 flex-shrink-0 mr-4`}/>
                 <span className="title-font font-medium text-white">
                   {skill.name} <p className="text-xs text-neutral-500">{skill.level}</p>
