@@ -15,7 +15,7 @@ export default function Skills() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
           {skills.map((skill) => (
-              <div key={skill.name} className="relative bg-gray-800 col-span-1 rounded px-2 pb-1 pt-8" data-aos="zoom-in-right">
+              <div key={skill.name} className="relative bg-gray-800 col-span-1 rounded px-2 pb-1 pt-8" data-aos="fade-up">
                 <p className="absolute top-0 text-white">{skill.name}</p>
                 <p className="absolute top-0 text-white" style={{left: `${skill.level - 10}%`}} >{skill.level}%</p>
                 <div className="w-[100%] bg-neutral-500 rounded-md flex">

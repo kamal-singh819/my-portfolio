@@ -29,7 +29,7 @@ const About = () => {
           </div>
           <SocialMedia />
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 p-2 sm:p-5 xl:p-10" data-aos="fade-left">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 p-2 sm:p-5 xl:p-10" data-aos="fade-up">
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
