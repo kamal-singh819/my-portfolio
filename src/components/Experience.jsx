@@ -11,8 +11,8 @@ const Experience = () => {
             This is my experience I have gained in my B.E. Currently working as Software Development Engineer Intern
           </p>
         </div>
-        {experience.map((exp, idx) => {
-          return <div key={exp.companyName} data-aos={`${idx%2 ? "fade-right" : "fade-left"}`}>
+        {experience.map((exp) => {
+          return <div key={exp.companyName} data-aos="fade-up">
             <div className="flex justify-between gap-2 items-center">
               <h3 className="text-white text-md sm:text-lg font-bold">{exp.companyName}</h3>
               <p className="text-sm italic">{exp.duration}</p>

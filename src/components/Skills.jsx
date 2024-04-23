@@ -1,4 +1,4 @@
-import { LuBadgeCheck } from "react-icons/lu";
+// import { LuBadgeCheck } from "react-icons/lu";
 import { skills } from "../data";
 
 export default function Skills() {
@@ -13,13 +13,15 @@ export default function Skills() {
             I have aquired these skills through Internship and projects throughout my B.E journey.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
           {skills.map((skill) => (
-              <div key={skill.name} className="bg-gray-800 col-span-1 rounded flex p-4 px-10 items-center" data-aos="zoom-in-right">
-                <LuBadgeCheck className={`${skill.level=== "Expert" ? "text-green-500" : "text-green-200"} w-6 h-6 flex-shrink-0 mr-4`}/>
-                <span className="title-font font-medium text-white">
-                  {skill.name} <p className="text-xs text-neutral-500">{skill.level}</p>
-                </span>
+              <div key={skill.name} className="relative bg-gray-800 col-span-1 rounded px-2 pb-1 pt-8" data-aos="zoom-in-right">
+                <p className="absolute top-0 text-white">{skill.name}</p>
+                <p className="absolute top-0 text-white" style={{left: `${skill.level - 10}%`}} >{skill.level}%</p>
+                <div className="w-[100%] bg-neutral-500 rounded-md flex">
+                  <span className={`inline-block bg-green-700 h-[1rem] rounded-md`} style={{width: `${skill.level}%`}}></span>
+                  <span className={`inline-block flex-1  h-[1rem]`}></span>
+                </div>
               </div>
           ))}
         </div>

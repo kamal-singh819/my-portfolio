@@ -34,21 +34,21 @@ export const projects = [
 ];
 
 export const skills = [
-    { name: "JavaScript", level: "Expert" },
-    { name: "ReactJS", level: "Intermediate" },
-    { name: "Tailwind css", level: "Expert" },
-    { name: "NodeJS", level: "Intermediate" },
-    { name: "ExpressJS", level: "Intermediate" },
-    { name: "MongoDB", level: "Intermediate" },
-    { name: "OOPs", level: "Expert" },
-    { name: "Java", level: "Intermediate" },
-    { name: "C", level: "Intermediate" },
-    { name: "C++", level: "Intermediate" },
-    { name: "Python", level: "Intermediate" },
-    { name: "HTML", level: "Expert" },
-    { name: "CSS", level: "Expert" },
-    { name: "Git & Github", level: "Intermediate" },
-    { name: "SQL", level: "Intermediate" },
+    { name: "JavaScript", level: 90 },
+    { name: "ReactJS", level: 70 },
+    { name: "Tailwind css", level: 70 },
+    { name: "NodeJS", level: 75 },
+    { name: "ExpressJS", level: 75 },
+    { name: "MongoDB", level: 75 },
+    { name: "OOPs", level: 80 },
+    { name: "Java", level: 70 },
+    { name: "C", level: 60 },
+    { name: "C++", level: 90 },
+    { name: "Python", level: 60 },
+    { name: "HTML", level: 90 },
+    { name: "CSS", level: 90 },
+    { name: "Git & Github", level: 75 },
+    { name: "SQL", level: 80 },
 ];
 
 export const experience = [
