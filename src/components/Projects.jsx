@@ -6,12 +6,12 @@ const Projects = () => {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font z-0">
       <div className="container px-5 py-10 mx-auto text-center lg:px-10 xl:px-40">
         <div className="flex flex-col w-full mb-20">
-          <FaCode className="mx-auto inline-block w-[2rem] md:w-[5rem] h-[2rem] md:h-[5rem] mb-4"  />
+          <FaCode className="mx-auto inline-block w-[2rem] md:w-[5rem] h-[2rem] md:h-[5rem] mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I have Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            These are the projects I have developed in my B.E journey. Github Link is associated with each project, you can explore!
+            These are the projects I have developed. Github Repository and Deployed Links are associated with each project, you can explore!
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
@@ -25,8 +25,11 @@ const Projects = () => {
               </h1>
               <p className="leading-relaxed mb-4 text-sm">{project.description}</p>
               <p className="text-white text-md">Technology Used: <span className="text-neutral-300"> {project.technologyUsed}</span></p>
-              <a href={project.link} target="_blank" className=" underline text-blue-800">Github Link</a>
-             </div>
+              <div className="flex justify-center gap-4 mt-5">
+                <a href={project.link} target="_blank" className=" underline text-blue-600">Github Link</a>
+                {project.deployedLink && <a href={project.deployedLink} target="_blank" className=" underline text-blue-600">Deployed Link</a>}
+              </div>
+            </div>
           ))}
         </div>
       </div>

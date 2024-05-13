@@ -1,4 +1,4 @@
-import myPhoto from '../assets/profile.jpg';
+import myPhoto from '../assets/profile2.png';
 import { FaRegStar } from "react-icons/fa";
 import SocialMedia from './SocialMedia';
 import { leetcodeURL } from '../data';
@@ -6,11 +6,11 @@ import { leetcodeURL } from '../data';
 const About = () => {
   return (
     <section id="about" className='bg-gray-800'>
-      <div className="container mx-auto flex px-2 sm:px-10 xl:px-40 py-10 md:flex-row flex-col items-center ">
+      <div className="container mx-auto flex px-2 sm:px-10 xl:px-40 py-10 md:flex-row flex-col-reverse items-center ">
         <div className=" lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up">
           <div className="">
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>Hii, I am <span className='font-bold'> Kamal Singh </span> </h1>
-            <p className='title-font sm:text-3xl text-2xl mb-4 font-medium text-white'>I love to build amazing apps. </p>
+            <p className='title-font text-2xl mb-4 font-medium text-white'>I am a MERN Stack Developer </p>
           </div>
           <p className="mb-8 leading-relaxed text-white italic">
             I`m a skilled problem solver, I have 3 <FaRegStar className='text-white inline-flex mb-1' /> on <a className='font-bold underline' href={leetcodeURL}> Leetcode</a>. Currently, I am working as a Software Development Engineer Intern in Itobuz Technologies Pvt. Ltd. Kolkata.
