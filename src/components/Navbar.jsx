@@ -5,8 +5,8 @@ import SocialMedia from "./SocialMedia";
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-900 md:sticky top-0 left-0 right-0 z-10">
-      <div className="flex items-center justify-between px-3 sm:px-10 xl:px-[10rem] py-4">
+    <header className="bg-gray-900 sticky top-4 z-10 mx-2 sm:mx-12 rounded-lg">
+      <div className="flex items-center justify-between px-3 sm:px-10 xl:px-[7rem] py-4">
         <nav className="flex items-center justify-center gap-5">
           <a href="mailto:singh540kamal@gmail.com" target="_blank" className="border-2 border-white rounded-full p-1"> <SiGmail className="text-white" /> </a>
           <SocialMedia />

@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
           {projects.map((project) => (
-            <div key={project.title} className="col-span-1 px-8 py-10 z-0 w-full border-4 border-gray-800 bg-gray-900 opacity-100" data-aos="fade-up">
+            <div key={project.title} className="col-span-1 px-8 py-10 z-0 w-full border-4 border-gray-800 bg-gray-800/60 rounded-md opacity-100" data-aos="fade-up">
               <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                 {project.subtitle}
               </h2>

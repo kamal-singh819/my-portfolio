@@ -23,7 +23,7 @@ const About = () => {
             </a>
             <a
               href="#projects"
-              className="text-sm lg:text-md text-gray-400 font-bold bg-gray-800 border-0 py-2 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded">
+              className="text-sm lg:text-md text-gray-400 font-bold bg-gray-700 border-0 py-2 px-3 focus:outline-none hover:bg-gray-600 hover:text-white rounded">
               See My Work
             </a>
           </div>

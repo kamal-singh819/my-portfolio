@@ -4,5 +4,9 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(31, 41, 55);
+}
+
 @tailwind components;
 @tailwind utilities;

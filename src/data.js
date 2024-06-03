@@ -22,6 +22,7 @@ export const projects = [
         description:
             "TodoApp is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, login, and manage their tasks efficiently. User can add, delete & update any task",
         link: "https://github.com/kamal-singh819/notes-app",
+        deployedLink: "https://kamal-notesapp.vercel.app/",
         technologyUsed: "ReactJS, NodeJS, MongoDB, ExpressJS & SCSS"
     },
     {
