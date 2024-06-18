@@ -59,9 +59,12 @@ export const experience = [
         companyName: "Itobuz Technologies Pvt. Ltd. Kolkata",
         role: "Software Development Engineer Intern",
         type: "on-site",
-        duration: "Jan 2024 - Present",
-        content: ["Engaging in full-stack web development with a focus on HTML, CSS, JavaScript, ReactJS, NodeJS, and MongoDB.",
-            "Actively contributing to project on Github, demonstrating proficiency in version control and collaborative software development."],
+        duration: "January 2024 - June 2024",
+        content: ["Engaged in full-stack web development with a focus on HTML, CSS, JavaScript, ReactJS, NodeJS, and MongoDB.",
+            "Utilized React, HTML, CSS, and JavaScript to build interactive and responsive user interfaces.",
+            "Utilized Node, Express and Mongodb to build the backend services.",
+            "Integrated frontend and backend functionalities to ensure smooth communication and data exchange between user interface and backend services."
+        ],
         links: {
             Github: "https://github.com/kamal-singh-itobuz"
         }
@@ -81,4 +84,4 @@ export const experience = [
 export const githubURL = "https://github.com/kamal-singh819";
 export const linkedInURL = "https://www.linkedin.com/in/kamalsinghofficial/";
 export const leetcodeURL = "https://leetcode.com/TheKing45/";
-export const resumeURL = "https://drive.google.com/file/d/1YEsKkXNR4cNPqlgLwIQd9wKbUG7W0eAK/view?usp=sharing";
+export const resumeURL = "https://drive.google.com/file/d/1xJqql2xMzZ0vNLvlEN80r17LnYywVdTQ/view?usp=sharing";

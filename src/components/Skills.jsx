@@ -1,4 +1,3 @@
-// import { LuBadgeCheck } from "react-icons/lu";
 import { skills } from "../data";
 
 export default function Skills() {
