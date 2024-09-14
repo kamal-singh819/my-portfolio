@@ -17,13 +17,11 @@ export const projects = [
         technologyUsed: "Python, Pandas & Convolutional Neural Network"
     },
     {
-        title: "TodoApp",
-        subtitle: "MERN Stack",
+        title: "Medigen : A Pharmacy App",
+        subtitle: "MERN Stack (TypeScript)",
         description:
-            "TodoApp is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, login, and manage their tasks efficiently. User can add, delete & update any task",
-        link: "https://github.com/kamal-singh819/notes-app",
-        deployedLink: "https://kamal-notesapp.vercel.app/",
-        technologyUsed: "ReactJS, NodeJS, MongoDB, ExpressJS & SCSS"
+            "Medigen is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js) with TypeScript. It has three panels- Customer, Pharmacist and Admin. Customers can place orders then Pharmacists present in 10Km radius of the customer can bid to the order. Customer will accept one of them bids and confirm the order. Admin manages customers, medicines and Pharmacies.",
+        technologyUsed: "TypeScript, ReactJS, NodeJS, MongoDB, ExpressJS, Tailwind CSS"
     },
     {
         title: "Flipkart Cart",
@@ -38,10 +36,11 @@ export const projects = [
 
 export const skills = [
     { name: "JavaScript", level: 70 },
-    { name: "ReactJS", level: 60 },
+    { name: "React.js", level: 70 },
+    { name: "Next.js", level: 60 },
     { name: "Tailwind css", level: 70 },
-    { name: "NodeJS", level: 60 },
-    { name: "ExpressJS", level: 60 },
+    { name: "Node.js", level: 60 },
+    { name: "Express.js", level: 60 },
     { name: "MongoDB", level: 65 },
     { name: "OOPs", level: 70 },
     { name: "Java", level: 70 },
@@ -55,6 +54,19 @@ export const skills = [
 ];
 
 export const experience = [
+    {
+        companyName: "Itobuz Technologies Pvt. Ltd. Kolkata",
+        role: "Software Development Engineer",
+        type: "on-site",
+        duration: "June 2024 - Present",
+        content: ["Engaging in full-stack web development with HTML, CSS, JavaScript, ReactJS, NodeJS, and MongoDB.",
+            "Diving deep into Node, Express and Mongodb to build the backend services.",
+            "Integrating frontend and backend functionalities to ensure smooth communication and data exchange between user interface and backend services."
+        ],
+        links: {
+            Github: "https://github.com/kamal-singh-itobuz"
+        }
+    },
     {
         companyName: "Itobuz Technologies Pvt. Ltd. Kolkata",
         role: "Software Development Engineer Intern",

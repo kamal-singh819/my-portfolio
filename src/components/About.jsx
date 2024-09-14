@@ -10,10 +10,10 @@ const About = () => {
         <div className=" lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up">
           <div className="">
             <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>Hii, I am <span className='font-bold'> Kamal Singh </span> </h1>
-            <p className='title-font text-2xl mb-4 font-medium text-white'>I am a MERN Stack Developer </p>
+            <p className='title-font text-2xl mb-4 font-medium text-white'>I am a Full Stack Developer </p>
           </div>
           <p className="mb-8 leading-relaxed text-white italic">
-            I`m a skilled problem solver, I have 3 <FaRegStar className='text-white inline-flex mb-1' /> on <a className='font-bold underline' href={leetcodeURL}> Leetcode</a>. Currently, I am working as a Software Development Engineer Intern in Itobuz Technologies Pvt. Ltd. Kolkata.
+            I`m a skilled problem solver, I have 3 <FaRegStar className='text-white inline-flex mb-1' /> on <a className='font-bold underline' href={leetcodeURL}> Leetcode</a>. Currently, I am working as a Software Development Engineer at Itobuz Technologies Pvt. Ltd. Kolkata.
           </p>
           <div className="flex justify-center gap-2 mb-4">
             <a
