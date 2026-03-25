@@ -8,7 +8,7 @@ const Experience = () => {
             My Experience
           </h1>
           <p className="text-center lg:w-2/3 mx-auto leading-relaxed text-base">
-            This is my experience I have gained in my B.E. Currently working as Software Development Engineer Intern
+            This is my experience I have gained in my career. Currently working as Software Developer.
           </p>
         </div>
         {experience.map((exp) => {
@@ -21,9 +21,8 @@ const Experience = () => {
             <ul className="ml-4 flex flex-col gap-2 list-disc">
               {exp.content.map((con, idx) => <li key={idx} className="text-sm sm:text-md">{con}</li>)}
             </ul>
-            {exp.links.Certificate ? <a className="underline text-blue-700" href={exp.links.Certificate}>Certificate</a> : <a className="underline text-blue-700" href={exp.links.Github}>Github</a>}
           </div>
-        }) }
+        })}
       </div>
     </section>
   )

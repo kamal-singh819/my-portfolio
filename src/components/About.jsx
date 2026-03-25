@@ -1,7 +1,5 @@
 import myPhoto from '../assets/profile2.png';
-import { FaRegStar } from "react-icons/fa";
 import SocialMedia from './SocialMedia';
-import { leetcodeURL } from '../data';
 
 const About = () => {
   return (
@@ -13,7 +11,7 @@ const About = () => {
             <p className='title-font text-2xl mb-4 font-medium text-white'>I am a Full Stack Developer </p>
           </div>
           <p className="mb-8 leading-relaxed text-white italic">
-            I`m a skilled problem solver, I have 3 <FaRegStar className='text-white inline-flex mb-1' /> on <a className='font-bold underline' href={leetcodeURL}> Leetcode</a>. Currently, I am working as a Software Development Engineer at Itobuz Technologies Pvt. Ltd. Kolkata.
+            I`m a skilled Problem Solver and Software Developer with 2+ years of experience in full-stack development. I build scalable backend systems and modern applications using Node.js, Spring Boot, React and React Native.
           </p>
           <div className="flex justify-center gap-2 mb-4">
             <a

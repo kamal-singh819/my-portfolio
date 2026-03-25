@@ -26,7 +26,7 @@ const Projects = () => {
               <p className="leading-relaxed mb-4 text-sm">{project.description}</p>
               <p className="text-white text-md">Technology Used: <span className="text-neutral-300"> {project.technologyUsed}</span></p>
               <div className="flex justify-center gap-4 mt-5">
-                <a href={project.link} target="_blank" className=" underline text-blue-600">Github Link</a>
+                {project.link && <a href={project.link} target="_blank" className=" underline text-blue-600">Github Link</a>}
                 {project.deployedLink && <a href={project.deployedLink} target="_blank" className=" underline text-blue-600">Deployed Link</a>}
               </div>
             </div>

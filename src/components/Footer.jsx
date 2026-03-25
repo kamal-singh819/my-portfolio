@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <p className="text-sm md:text-md py-2">Copyright © 2024 Kamal Singh. All Rights Reserved.</p>
+                <p className="text-sm md:text-md py-2">Copyright © {new Date().getFullYear()} Kamal Singh. All Rights Reserved.</p>
             </div>
         </section>
     )
