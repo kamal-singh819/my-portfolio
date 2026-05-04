@@ -101,4 +101,4 @@ export const experience = [
 export const githubURL = "https://github.com/kamal-singh819";
 export const linkedInURL = "https://www.linkedin.com/in/kamalsinghofficial/";
 export const leetcodeURL = "https://leetcode.com/TheKing45/";
-export const resumeURL = "https://drive.google.com/file/d/1IjVE2iBzFXSYudWYfKIlVq4ATuqd4qkm/view?usp=sharing";
+export const resumeURL = "https://drive.google.com/file/d/1Vn3Mplix4tR0chQN59BU02x9-SoR5C2K/view?usp=sharing";
